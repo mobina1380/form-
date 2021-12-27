@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/styleform.css">
+    <script src="css/node_modules/jquery/dist/jquery.js"></script>
+    <script src="css/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/jsForm.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+    <div class="row justify-content-center" >
+        <div class="col-lg-7 col-md-10" >
+            <div class="card" >
+
+                <div class="card-header bg-white">
+                    <h3 class="card-title text-center mt-2"> فرم درخواست بسته جدید </h3>
+                </div>
+                <div class="card-body" >
+
+                    <form method="post" action="#" >
+
+
+                        <div class="form-group row" >
+                            <label class="col-lg-2  col-form-label">توزیع:</label>
+                            <div class="col-lg-10" id="select1" >
+                                <select name="role" class="form-control text-left" id="example-select" >
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label  class=" col-lg-2    col-form-label">مخزن:</label>
+                            <div class="col-lg-10">
+                                <input type="text"   class="form-control text-left" id="store" name="email"  data-validation="on" data-validation-rule="required" placeholder="e.g.Aeris x86_64 " >
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label  class="col-lg-2  col-form-label">نام:</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control text-left" id="name" name="email" placeholder="e.g.aeris_release"  data-validation="on" data-validation-rule="required">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label  class="col-lg-2  col-form-label">نسخه:</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control text-left" id="version" name="email" placeholder="e.g.1.0"  data-validation="on" data-validation-rule="required">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label  class="col-lg-2  col-form-label">انتشار:</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control text-left" id="spread" name="email" placeholder="e.g.2.el7"  data-validation="on" data-validation-rule="required">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label  class="col-lg-2  col-form-label">معماری:</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control text-left" id="architecture" name="email" placeholder="e.g.noarch"  data-validation="on" data-validation-rule="required">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-2  col-form-label">توضیحات:</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" name="discreption"  id="discreption" rows="5"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label  class="col-lg-2  col-form-label"></label>
+                            <div class="col-lg-10">
+                                <input type="submit"  name="btn-login" class="btn btn-block" value="ثبت " id="btnSend" >
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+</body>
+
+</html>

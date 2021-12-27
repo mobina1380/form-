@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/vazir/Vazir-Light.ttf");
+}
+@font-face {
+  font-family: VazirForValidation;
+  src: url("../fonts/vazir/Vazir.ttf");
+}
+body {
+  text-align: right;
+  direction: rtl;
+  font-family: Vazir;
+}
+@font-face {
+  font-family: "B Nazanin";
+  src: url("../fonts/B_Nazanin/BNaznnBd.ttf");
+}
+#select1 .form-control {
+  color: #003882;
+  border: 1px solid #777777;
+  margin-left: -10px;
+}
+.btn {
+  background-color: #003882;
+  color: #ffffff;
+}
+.card {
+  border: 1px solid #777777;
+}
+input[type="text"] {
+  border: 1px solid #777777;
+}
+.card-header {
+  border: none;
+}
+#discreption {
+  border: 1px solid #777777;
+}
+label {
+  font-family: "B Nazanin";
+}
+h3 {
+  font-family: "B Nazanin";
+}
+#btnSend:hover{
+  color: white;
+}
